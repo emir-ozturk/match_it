@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Avatar",
+        "level": 1,
+        "image_count": 15,
+        "image_folder": "avatars"
+    },
+    {
+        "name": "Fruits",
+        "level": 2,
+        "image_count": 20,
+        "image_folder": "fruits"
+    }
+]

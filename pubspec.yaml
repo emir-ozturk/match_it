@@ -1,14 +1,17 @@
 name: match_it
-description: "A new Flutter project."
+description: "Match It Game"
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: ^3.8.1
 
 dependencies:
+  bloc: ^9.0.0
+  equatable: ^2.0.7
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.1
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +20,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/modes/
+    - assets/images/modes/avatars/
+    - assets/images/modes/fruits/
